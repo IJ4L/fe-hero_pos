@@ -25,10 +25,9 @@ const Hero = () => {
           <div className="w-screen px-8 md:px-0 md:w-auto flex flex-col xl:flex-row space-y-2 xl:space-y-0 xl:space-x-4">
             <button
               aria-label="Download from Playstore"
-              className="xl:flex xl:items-center bg-white text-secondary font-semibold px-10 py-3 space-x-3 text-md rounded-3xl hover:px-14 transition-all duration-300"
+              className="xl:flex xl:items-center bg-white text-secondary font-semibold px-10 py-3 text-md rounded-3xl hover:px-14 transition-all duration-300"
             >
-              <img className="h-4" src="src\assets\icons\playstore.png" alt="playstore.png" />
-              <p>Playstore</p>
+              Playstore
             </button>
             <button
               aria-label="Download from App Store"

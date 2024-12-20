@@ -12,7 +12,7 @@ const Maker = () => {
       </h4>
       <div className="flex flex-col md:flex-row justify-center items-center mt-10 space-y-8 md:space-y-0 md:space-x-16">
         <div className="flex flex-col items-center">
-          <img className="h-96 rounded-xl" src="src\assets\images\ijal.jpg" alt="qila.jpg" />
+          <img className="h-96 rounded-xl" src="src\assets\images\ijal.JPG" alt="ijal.JPG" />
           <a href="https://www.instagram.com/cyrusccs/?__pwa=1" className="mt-4 text-secondary text-lg font-semibold cursor-pointer hover:text-red-500">Nursyamsu Rijal Usman</a>
           <p className="text-secondary text-md font-normal">Programmer</p>
         </div>
