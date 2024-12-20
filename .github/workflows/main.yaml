@@ -1,11 +1,14 @@
 name: Deploy to VPS
+
 on:
   push:
     branches:
       - main
+
 jobs:
   build_and_push:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout the repo
         uses: actions/checkout@v2
@@ -16,11 +19,22 @@ jobs:
           host: ${{ secrets.VPS_IP }}
           username: ${{ secrets.VPS_USER }}
           key: ${{ secrets.VPS_SSH_PRIVATE_KEY }}
-          port: ${{  secrets.VPS_PORT }}
+          port: ${{ secrets.VPS_PORT }}
           script: |
-            sudo rm -rf fe-hero_pos  
-            sudo git pull https://github.com/IJ4L/fe-hero_pos
-            sudo cd fe-hero_pos
-            sudo npm i
-            sudo npm run build
-            
+            # Check if the directory fe-hero_pos exists
+            if [ -d "fe-hero_pos" ]; then
+              echo "Directory fe-hero_pos exists, pulling the latest changes..."
+              cd fe-hero_pos || exit
+              git pull origin main
+            else
+              echo "Directory fe-hero_pos not found, cloning repository..."
+              git clone https://github.com/IJ4L/fe-hero_pos
+              cd fe-hero_pos || exit
+            fi
+
+            # Install dependencies and build the project
+            echo "Installing dependencies..."
+            npm install
+
+            echo "Building the project..."
+            npm run build
