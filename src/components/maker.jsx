@@ -18,7 +18,7 @@ const Maker = () => {
         </div>
         <div className="flex flex-col items-center">
           <img className="h-96 rounded-xl" src="src\assets\images\qila.jpg" alt="qila.jpg" />
-          <a href="https://www.instagram.com/aqilahnfk/?__pwa=1" className="mt-4 text-secondary text-lg font-semibold cursor-pointer hover:text-red-500">Aqilah Azahra</a>
+          <a href="https://www.instagram.com/aqilahnfk/?__pwa=1" className="mt-4 text-secondary text-lg font-semibold cursor-pointer hover:text-red-500">Aqilah nurul fauziah</a>
           <p className="text-secondary text-md font-normal">Product Manager</p>
         </div>
       </div>

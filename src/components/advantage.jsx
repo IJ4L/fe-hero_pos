@@ -15,9 +15,9 @@ const Advantage = () => {
           Management
         </h1>
         <h4 className="text-lg md:text-md text-secondary mt-4">
-          Build diagrams with a few clicks, see the full picture, export SQL
+          Manage your store with our tools. You can create custom
           <br />
-          scripts, customize your editor, and more.
+          applications that suit your needs
         </h4>
         <div className="animate-slide-up w-full flex justify-center md:justify-start space-x-8 mt-4">
           <div className="flex space-x-2">
