@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="518" height="398" viewBox="0 0 518 398"
+  style="fill:none;stroke:none;fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;"
+  version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style id="fontImports">@import
+    url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=block");</style>
+  <g id="items" style="isolation: isolate">
+    <g id="blend" style="mix-blend-mode:normal">
+      <g id="g-root-3.line_sy_147z4lr1b7stmo-fill" data-item-order="-30295"
+        transform="translate(149.46929931640625, 104.9998779296875)"></g>
+      <g id="g-root-2.line_sy_vcc4cv1b7sufd-fill" data-item-order="-30289"
+        transform="translate(243.0001220703125, 231.00006103515625)"></g>
+      <g id="g-root-1.line_sy_qn5hxr1b7u6ma-fill" data-item-order="-30283"
+        transform="translate(305.35382080078125, 104.99993896484375)"></g>
+      <g id="g-root-tx_customer_hrihov1b7u7ez-fill" data-item-order="0"
+        transform="translate(15, 63)">
+        <g id="tx_customer_hrihov1b7u7ez-fill" stroke="none" fill="#484848">
+          <g>
+            <text style="font: 20px Roboto, sans-serif; white-space: pre;" font-size="20px"
+              font-family="Roboto, sans-serif">
+              <tspan x="29" y="34" dominant-baseline="ideographic">Customer </tspan>
+              <tspan x="18.58" y="58" dominant-baseline="ideographic">Experience</tspan>
+            </text>
+          </g>
+        </g>
+      </g>
+      <g id="g-root-tx_streamli_uya71b7u6md-fill" data-item-order="0" transform="translate(363, 63)">
+        <g id="tx_streamli_uya71b7u6md-fill" stroke="none" fill="#484848">
+          <g>
+            <text style="font: 20px Roboto, sans-serif; white-space: pre;" font-size="20px"
+              font-family="Roboto, sans-serif">
+              <tspan x="12" y="34" dominant-baseline="ideographic">Streamlined </tspan>
+              <tspan x="12" y="58" dominant-baseline="ideographic">Transactions</tspan>
+            </text>
+          </g>
+        </g>
+      </g>
+      <g id="g-root-up_1lpw3yn1b7es5d-fill" data-item-order="0"
+        transform="translate(207, 122.99609375)"></g>
+      <g id="g-root-tx_inventor_dbozkf1b7u878-fill" data-item-order="0"
+        transform="translate(177, 291)">
+        <g id="tx_inventor_dbozkf1b7u878-fill" stroke="none" fill="#484848">
+          <g>
+            <text style="font: 20px Roboto, sans-serif; white-space: pre;" font-size="20px"
+              font-family="Roboto, sans-serif">
+              <tspan x="35.09" y="34" dominant-baseline="ideographic">Inventory </tspan>
+              <tspan x="17.12" y="58" dominant-baseline="ideographic">Management</tspan>
+            </text>
+          </g>
+        </g>
+      </g>
+      <g id="g-root-3.line_sy_147z4lr1b7stmo-stroke" data-item-order="-30295"
+        transform="translate(149.46929931640625, 104.9998779296875)">
+        <g id="3.line_sy_147z4lr1b7stmo-stroke" fill="none" stroke-linecap="round"
+          stroke-linejoin="round" stroke-miterlimit="4" stroke="#484848" stroke-width="2">
+          <g>
+            <path d="M 10.000702 10.000122L 39.440702 27.000122"></path>
+            <path d="M 31.000702 29.600122L 39.900702 27.200122L 37.500702 18.400122"
+              stroke-dasharray="none"></path>
+          </g>
+        </g>
+      </g>
+      <g id="g-root-2.line_sy_vcc4cv1b7sufd-stroke" data-item-order="-30289"
+        transform="translate(243.0001220703125, 231.00006103515625)">
+        <g id="2.line_sy_vcc4cv1b7sufd-stroke" fill="none" stroke-linecap="round"
+          stroke-linejoin="round" stroke-miterlimit="4" stroke="#484848" stroke-width="2">
+          <g>
+            <path d="M 9.999878 45.999939L 9.999878 11.999939"></path>
+            <path d="M 16.499878 17.999939L 9.999878 11.499939L 3.499878 17.999939"
+              stroke-dasharray="none"></path>
+          </g>
+        </g>
+      </g>
+      <g id="g-root-1.line_sy_qn5hxr1b7u6ma-stroke" data-item-order="-30283"
+        transform="translate(305.35382080078125, 104.99993896484375)">
+        <g id="1.line_sy_qn5hxr1b7u6ma-stroke" fill="none" stroke-linecap="round"
+          stroke-linejoin="round" stroke-miterlimit="4" stroke="#484848" stroke-width="2">
+          <g>
+            <path d="M 41.176145 10.000061L 11.736145 27.000061"></path>
+            <path d="M 13.636145 18.400061L 11.336145 27.200061L 20.136145 29.600061"
+              stroke-dasharray="none"></path>
+          </g>
+        </g>
+      </g>
+      <g id="g-root-tx_customer_hrihov1b7u7ez-stroke" data-item-order="0"
+        transform="translate(15, 63)"></g>
+      <g id="g-root-tx_streamli_uya71b7u6md-stroke" data-item-order="0"
+        transform="translate(363, 63)"></g>
+      <g id="g-root-up_1lpw3yn1b7es5d-stroke" data-item-order="0"
+        transform="translate(207, 122.99609375)">
+        <g id="up_1lpw3yn1b7es5d-stroke" fill="none" stroke-linecap="round" stroke-linejoin="round"
+          stroke-miterlimit="4" stroke="#484848" stroke-width="2">
+          <g>
+            <path
+              d="M 68.464005 35.68L 79.381004 21.565001M 11.5 70.434998L 29.362 47.701L 35.322998 51.750999M 63.862 22.681L 79.381004 21.565001L 80.5 37.084M 42.415001 35.68C 47.171288 40.607689 54.48103 42.077045 60.771999 39.369999M 41.043999 40.711002C 41.042374 46.184738 45.479259 50.62294 50.952995 50.62294C 56.426735 50.62294 60.863621 46.184738 60.861996 40.710999C 60.863621 35.237259 56.426735 30.799057 50.952995 30.799057C 45.479259 30.799057 41.042374 35.237259 41.043999 40.710999M 36.099998 70.434998C 36.215446 62.308449 42.836128 55.781155 50.963501 55.781155C 59.090866 55.781155 65.711548 62.308449 65.826996 70.434998ZM 50.952999 55.572998L 50.952999 64.090004"></path>
+          </g>
+        </g>
+      </g>
+      <g id="g-root-tx_inventor_dbozkf1b7u878-stroke" data-item-order="0"
+        transform="translate(177, 291)"></g>
+    </g>
+  </g>
+</svg>
