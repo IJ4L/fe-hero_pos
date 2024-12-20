@@ -1,0 +1,26 @@
+name: Deploy to VPS
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build_and_push:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout the repo
+        uses: actions/checkout@v2
+
+      - name: Deploy to VPS
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.VPS_IP }}
+          username: ${{ secrets.VPS_USER }}
+          key: ${{ secrets.VPS_SSH_PRIVATE_KEY }}
+          port: ${{  secrets.VPS_PORT }}
+          script: |
+            sudo rm -rf fe-hero_pos  
+            sudo git pull https://github.com/IJ4L/fe-hero_pos
+            sudo cd fe-hero_pos
+            sudo npm i
+            sudo npm run build
+            
