@@ -47,4 +47,4 @@ jobs:
             npm install
 
             echo "Building the project..."
-            npm run build
+            npm run dev -- --host
