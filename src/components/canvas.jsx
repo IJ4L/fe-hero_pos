@@ -1,5 +1,5 @@
 import React, { useRef, useEffect } from "react";
-import { animateParticles, initParticles } from "../assets/js/particle";
+import { animateParticles, initParticles } from "@/assets/js/particle";
 
 const CanvasParticles = () => {
   const canvasRef = useRef(null);

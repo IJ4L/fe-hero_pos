@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
-import Advantage from "./components/advantage";
-import Navbar from "./components/navbar";
-import Hero from "./components/hero";
-import Preview from "./components/preview";
-import Feature from "./components/feature";
-import Maker from "./components/maker";
-import Footer from "./components/footer";
+import Advantage from "@/components/advantage";
+import Navbar from "@/components/navbar";
+import Hero from "@/components/hero";
+import Preview from "@/components/preview";
+import Feature from "@/components/feature";
+import Maker from "@/components/maker";
+import Footer from "@/components/footer";
 import "./App.css";
 
 const App = () => {
