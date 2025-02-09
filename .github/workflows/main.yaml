@@ -21,17 +21,7 @@ jobs:
           key: ${{ secrets.VPS_SSH_PRIVATE_KEY }}
           port: ${{ secrets.VPS_PORT }}
           script: |
-            # Ensure Node.js 16+ is installed
-            if ! command -v node &> /dev/null || ! command -v npm &> /dev/null
-            then
-              echo "Node.js or npm not found. Installing Node.js..."
-              curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash -
-              sudo apt-get install -y nodejs
-            else
-              echo "Node.js and npm are already installed."
-            fi
 
-            # Check if the directory fe-hero_pos exists
             if [ -d "fe-hero_pos" ]; then
               echo "Directory fe-hero_pos exists, pulling the latest changes..."
               cd fe-hero_pos || exit
@@ -42,7 +32,6 @@ jobs:
               cd fe-hero_pos || exit
             fi
 
-            # Install dependencies and build the project
             echo "Installing dependencies..."
             npm install
 
